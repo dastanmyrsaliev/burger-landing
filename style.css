@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 /*- Общие стили */
-
 body {
     margin: 0;
     font-family: "Roboto", sans-serif;
@@ -38,7 +37,9 @@ img {
 }
 
 .container {
-    max-width: 1140px;
+    box-sizing: border-box;
+
+    max-width: 1170px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -66,7 +67,6 @@ img {
 }
 
 /*- Шапка */
-
 .header {
     padding: 25px 0;
 
@@ -111,7 +111,6 @@ img {
 }
 
 /*- Приветственная секция */
-
 .welcome {
     box-sizing: border-box;
     min-height: 100vh;
@@ -148,7 +147,6 @@ img {
 }
 
 /*- Список еды */
-
 .food-list {
     padding: 100px 0;
 }
@@ -188,4 +186,56 @@ img {
 .food-list__desc {
     font-size: 16px;
     opacity: 0.7;
+}
+
+/*- Order */
+.order {
+    background-color: #312F30;
+    padding: 60px 0;
+}
+
+.order .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 90px;
+}
+
+.order__img {
+    max-width: 470px;
+}
+
+.order__text {
+    max-width: 360px;
+}
+
+.order__title {
+    margin-bottom: 25px;
+    font-size: 44px;
+}
+
+.order__desc {
+    margin-bottom: 15px;
+    opacity: 0.7;
+}
+
+.order__price {
+    font-weight: 500;
+    font-size: 20px;
+    color: #F6762C;
+    letter-spacing: 0.1em;
+}
+
+.order__price--old {
+    font-size: 16px;
+    text-decoration-line: line-through;
+    opacity: 0.5;   
+}
+
+.order__price + .order__price {
+    margin-left: 3px;
+}
+
+.order .btn {
+    margin-top: 10px;
 }
