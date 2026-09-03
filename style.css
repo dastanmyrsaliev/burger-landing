@@ -53,7 +53,7 @@ img {
     height: 50px;
 
     font-weight: 500;
-    font-style: 16px;
+    font-size: 16px;
     text-transform: uppercase;
 
     background-color: #F6762C;
@@ -320,4 +320,49 @@ img {
 
 .card-papa {
     background-image: url("./images/product-4.jpg");
+}
+
+/*- Feedback */
+.feedback {
+    padding-bottom: 200px;
+}
+
+.feedback .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    max-width: 880px;
+}
+
+.feedback__img {
+
+}
+
+.feedback__text {
+    margin: 0;
+    width: 370px;
+    text-align: center;
+}
+
+.feedback__text::before {
+    content: url("./images/icons/quote.svg");
+}
+
+.feedback__desc {
+    opacity: 0.7;
+    margin: 30px 0;
+}
+
+.feedback__author {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.feedback__subauthor {
+    font-weight: 500;
+    font-size: 12px;
+    opacity: 0.7;
+    display: block;
 }
