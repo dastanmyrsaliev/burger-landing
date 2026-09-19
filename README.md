@@ -22,3 +22,7 @@ git clone https://github.com/dastanmyrsaliev/burger-landing.git
 ```
 
 Запустить с помощью расширения LiveServer или запустить файл index.html в браузере.
+
+## Основные фичи
+
+- Адаптив под мобильные устройства и планшеты от 320px.
