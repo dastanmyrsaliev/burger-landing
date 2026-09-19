@@ -18,7 +18,7 @@
 ## Как запустить
 
 ```bash
-git https://github.com/dastanmyrsaliev/burger-landing.git
+git clone https://github.com/dastanmyrsaliev/burger-landing.git
 ```
 
 Запустить с помощью расширения LiveServer или запустить файл index.html в браузере.
